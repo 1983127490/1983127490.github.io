@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="求知若饥 虚心若愚">
 <meta property="og:type" content="article">
 <meta property="og:title" content="&#39;第一个博客&#39;">
 <meta property="og:url" content="http://yoursite.com/2019/05/13/第一个博客/index.html">
 <meta property="og:site_name" content="知秋&quot;">
+<meta property="og:description" content="求知若饥 虚心若愚">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-05-13T08:24:33.350Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="&#39;第一个博客&#39;">
+<meta name="twitter:description" content="求知若饥 虚心若愚">
 
 
 
@@ -232,7 +235,7 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/13/第一个博客/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ZhiQiu">
+      <meta itemprop="name" content="鲸落">
       <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -271,6 +274,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/05/13/第一个博客/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/05/13/第一个博客/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -359,6 +372,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -388,8 +404,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">ZhiQiu</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-author-name" itemprop="name">鲸落</p>
+              <p class="site-description motion-element" itemprop="description">求知若饥 虚心若愚</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -444,7 +460,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">ZhiQiu</span>
+  <span class="author" itemprop="copyrightHolder">鲸落</span>
 
   
 </div>
@@ -602,6 +618,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'RUIFNRnYnuMUuK6c20iw4vIo-gzGzoHsz',
+        appKey: 'e0IKczD62zHpaxlKqufxUHym',
+        placeholder: 'ヾﾉ≧∀≦)o 来呀！吐槽一番吧!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
